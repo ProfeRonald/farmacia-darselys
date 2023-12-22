@@ -164,7 +164,7 @@ object-assign
    	firebase.auth().onAuthStateChanged( userInfo => {
    	
 	   	if(userInfo){
-	   		if((userInfo.email == 'educador@proferonald.com' || userInfo.email == 'farmaciadarselys@gmail.com') && userInfo.email != ''){
+	   		if((userInfo.email == 'r.ronald@gmail.com' || userInfo.email == 'farmaciadarselys@gmail.com') && userInfo.email != ''){
 	   			$('.edicion').show();
 	   		}
 	   	}
